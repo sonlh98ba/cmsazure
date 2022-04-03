@@ -95,7 +95,7 @@ This folder contains sample screenshots that students are required to submit in 
 
 ![blog list](example_images/blog_list.png)
 
-1. azure-portal-resource-group.png is a screenshot from the Azure Portal showing all of the contents of the Resource Group the student needs to create. The resource group must (at least) contain the following:
+2. azure-portal-resource-group.png is a screenshot from the Azure Portal showing all of the contents of the Resource Group the student needs to create. The resource group must (at least) contain the following:
 
 - Storage Account
  - SQL Server
@@ -103,23 +103,23 @@ This folder contains sample screenshots that students are required to submit in 
  - Resources related to deploying the app
 ![azure portal resource group](example_images/rg_details.png)
 
-1. sql-storage-solution.png is a screenshot showing the created tables and one query of data from the initial scripts.
+3. sql-storage-solution.png is a screenshot showing the created tables and one query of data from the initial scripts.
 ![tables and queries](example_images/sql-storage-solution.png)
 
   
-2. blob-solution.png is a screenshot showing an example of blob endpoints for where images are sent for storage.
+4. blob-solution.png is a screenshot showing an example of blob endpoints for where images are sent for storage.
 
 ![blob solution](example_images/storage_acc_1.png)
 ![blob solution](example_images/storage_acc_2.png)
 ![ Storage Image](example_images/storage_ep_images.png)
 
-1. uri-redirects-solution.png is a screenshot of the redirect URIs related to Microsoft authentication.
+5. uri-redirects-solution.png is a screenshot of the redirect URIs related to Microsoft authentication.
 
 ![uri redirect](example_images/uri-redirects-solution.png)
 
 ![ app registration](example_images/app_registraion_1.png)
 
-1. log-solution.png is a screenshot showing one potential form of logging with an "Invalid login attempt" and "admin logged in successfully", taken from the app's Log stream. You can customize your log messages as you see fit for these situations.
+6. log-solution.png is a screenshot showing one potential form of logging with an "Invalid login attempt" and "admin logged in successfully", taken from the app's Log stream. You can customize your log messages as you see fit for these situations.
 
 ![login](example_images/login_out.png)
 
