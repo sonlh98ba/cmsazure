@@ -13,8 +13,8 @@ This project is a Python web application built using Flask. The user can log in 
 
 Or, once the MS Login button is implemented, it will automatically log into the `admin` account.
 
-![login with pass](example_images/login_with_pass.png)
-![login with ad](example_images/login_with_ad.png)
+(example_images/login_with_pass.png)
+(example_images/login_with_ad.png)
 
 After your login successful, you get to the home page
 ![home page](example_images/homepage.png)
@@ -25,39 +25,39 @@ You are expected to do the following to complete this project:
 
 1. Create a Resource Group in Azure.
 
-    + [x] Resource Group Name: Project_CMS
-    + [x] Location: Australia East
+  + Resource Group Name: Project_CMS
+  + Location: Australia East
 
 
 2. Create an SQL Database in Azure that contains a user table, an article table, and data in each table (populated with the scripts provided in the SQL Scripts folder).
-    - Provide a screenshot of the populated tables as detailed further below.
+  - Provide a screenshot of the populated tables as detailed further below.
 
-- [x] Article table
+- Article table
 
 ![article table](/example_images/articles_table.png)
 
-- [x] User Table
+- User Table
 
 ![article table](/example_images/users_table.png)
 
 3. Create a Storage Container in Azure for `images` to be stored in a container.
-    - Provide a screenshot of the storage endpoint URL as detailed further
+  - Provide a screenshot of the storage endpoint URL as detailed further
 
-- [x] Screenshot
+- Screenshot
 
 ![screenshot ](/example_images/storage_ep.png)
 
 4. Add functionality to the Sign In With Microsoft button.
-    - This will require completing TODOs in `views.py` with the `msal` library, along with appropriate registration in Azure Active Directory.
-  
-- [x] Updated view.py and config.py and tested the application locally with Azure active directory and database. Please refer [view.py](FlaskWebProject/views.py) 
-  
+  - This will require completing TODOs in `views.py` with the `msal` library, along with appropriate registration in Azure Active Directory.
+ 
+- Updated view.py and config.py and tested the application locally with Azure active directory and database. Please refer [view.py](FlaskWebProject/views.py) 
+ 
 5. Choose to use either a VM or App Service to deploy the FlaskWebProject to Azure. Complete the analysis template in `WRITEUP.md` (or include in the README) to compare the two options, as well as detail your reasoning behind choosing one or the other. Once you have made your choice, go through with deployment.
 
-- [x] The document is [here](WRITEUP.md)
+- The document is [here](WRITEUP.md)
 
 6. Add logging for whether users successfully or unsuccessfully logged in.
-    - This will require completing TODOs in `__init__.py`, as well as adding logging where desired in `views.py`.
+  - This will require completing TODOs in `__init__.py`, as well as adding logging where desired in `views.py`.
 
 Please refer code here [`__init__.py`](FlaskWebProject/__init__.py) and [`views.py`](FlaskWebProject/views.py)
 
@@ -67,21 +67,21 @@ Please refer code here [`__init__.py`](FlaskWebProject/__init__.py) and [`views.
 - Author: "Jane Doe"
 - Body: "My name is Jane Doe and this is my first article!"
 - Upload an image of your choice. Must be either a .png or .jpg.
-   After saving, click back on the article you created and provide a screenshot proving that it was created successfully. Please also make sure the URL is present in the screenshot.
+  After saving, click back on the article you created and provide a screenshot proving that it was created successfully. Please also make sure the URL is present in the screenshot.
 
 The List of the blogs below
 
 8. Log into the Azure Portal, go to your Resource Group, and provide a screenshot including all of the resources that were created to complete this project. (see sample screenshot in "example_images" folder)
 
-- [x] See section below under screenshot
+- See section below under screenshot
 
 9. Take a screenshot of the Redirect URIs entered for your registered app, related to the MS Login button.
 
-- [x] See section below under screenshot
-  
+- See section below under screenshot
+ 
 10. Take a screenshot of your logs (can be from the Log stream in Azure) showing logging from an attempt to sign in with an invalid login, as well as a valid login.
 
-- [x] See section below under screenshot
+- See section below under screenshot
 
 ## example_images Folder
 
@@ -98,15 +98,15 @@ This folder contains sample screenshots that students are required to submit in 
 1. azure-portal-resource-group.png is a screenshot from the Azure Portal showing all of the contents of the Resource Group the student needs to create. The resource group must (at least) contain the following:
 
 - Storage Account
-  - SQL Server
-  - SQL Database
-  - Resources related to deploying the app
+ - SQL Server
+ - SQL Database
+ - Resources related to deploying the app
 ![azure portal resource group](example_images/rg_details.png)
 
 1. sql-storage-solution.png is a screenshot showing the created tables and one query of data from the initial scripts.
 ![tables and queries](example_images/sql-storage-solution.png)
 
-   
+  
 2. blob-solution.png is a screenshot showing an example of blob endpoints for where images are sent for storage.
 
 ![blob solution](example_images/storage_acc_1.png)
@@ -141,9 +141,9 @@ All Python dependencies are stored in the requirements.txt file. To install them
 ## Troubleshooting
 
 - Mac users may need to install `unixodbc` as well as related drivers as shown below:
-  
-    ```bash
-    brew install unixodbc
-    ```
+ 
+  ```bash
+  brew install unixodbc
+  ```
 
 - Check [here](https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/install-microsoft-odbc-driver-sql-server-macos?view=sql-server-ver15) to add SQL Server drivers for Mac.
