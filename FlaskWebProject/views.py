@@ -97,7 +97,6 @@ def authorized():
         )
         if "error" in result:
             app.logger.error("Log-in failed, auth failed")
-            app.logger.error("Auth failed")
             return render_template("auth_error.html", result=result)
         session["user"] = result.get("id_token_claims")
         # Note: In a real app, we'd use the 'name' property from session["user"] below
