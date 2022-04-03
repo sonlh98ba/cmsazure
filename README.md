@@ -13,8 +13,8 @@ This project is a Python web application built using Flask. The user can log in 
 
 Or, once the MS Login button is implemented, it will automatically log into the `admin` account.
 
-(example_images/login_with_pass.png)
-(example_images/login_with_ad.png)
+!(example_images/login_with_pass.png)
+![login with ad](example_images/login_with_ad.png)
 
 After your login successful, you get to the home page
 ![home page](example_images/homepage.png)
